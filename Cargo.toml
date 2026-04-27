@@ -1,5 +1,6 @@
 [workspace]
 resolver = "2"
+
 members = [
   "learning/hello-world",
   "learning/rust-syntax",
@@ -20,6 +21,8 @@ members = [
   "soroban-examples/events-demo",
   "soroban-examples/simple-voting",
 ]
+
+exclude = ["gaspilot"]
 
 [workspace.dependencies]
 soroban-sdk = "*"
